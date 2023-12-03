@@ -17,7 +17,7 @@ if (isset($_GET['op'])) {
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Penerbit</title>
+    <title>Data Pengadaan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <style>
         .mx-auto {
@@ -30,7 +30,7 @@ if (isset($_GET['op'])) {
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand-lg bg-dark sticky-sm-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">UNIBOOKSTORE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,8 @@ if (isset($_GET['op'])) {
     </div>
   </div>
 </nav>
-     <!-- untuk mengeluarkan data -->
+        <h2 text align="center">Pengadaan</h2>
+     <!-- Output Tabel Pengadaan -->
      <div class="mx-auto">
      <div class="card">
             <div class="card-header text-white bg-secondary">

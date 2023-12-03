@@ -27,9 +27,9 @@ if (isset($_GET['op'])) {
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand-lg bg-dark sticky-sm-top"  >
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">UNIBOOKSTORE</a>
+    <a class="navbar-brand" href="tampilan.php">UNIBOOKSTORE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,8 +48,9 @@ if (isset($_GET['op'])) {
     </div>
   </div>
 </nav>
+<h2 text align="center">Admin</h2>
     <div class="mx-auto">
-        <!-- untuk mengeluarkan data -->
+        <!-- Output Tabel Admin -->
         <div class="card">
             <div class="card-header text-white bg-secondary">
                 Data Buku

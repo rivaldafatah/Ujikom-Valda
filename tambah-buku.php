@@ -86,7 +86,7 @@ if (isset($_POST['simpan'])) { //untuk create
     </style>
 </head>
 <body>
-    <!-- untuk memasukkan data -->
+    <!-- Input Data -->
     <div class="mx-auto">
     <div class="card">
             <div class="card-header">
